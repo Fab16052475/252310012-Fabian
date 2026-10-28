@@ -22,18 +22,18 @@ public class Latihan03 {
         try {
             angkaUsia = Integer.parseInt(inputUsia);
         } catch (Exception e) {
-            JOptionPane.showMessageDialog(null, "Isian usia harus angka"); //[cite: 2]
+            JOptionPane.showMessageDialog(null, "Isian usia harus angka");
             return;
         }
 
         String inputAlamat = JOptionPane.showInputDialog("Masukkan Alamat:");
         if (inputAlamat.isEmpty()) {
-            JOptionPane.showMessageDialog(null, "Field alamat tidak boleh kosong"); //[cite: 2]
+            JOptionPane.showMessageDialog(null, "Field alamat tidak boleh kosong");
             return;
         }
 
         if (inputAlamat.length() < 10) {
-            JOptionPane.showMessageDialog(null, "Masukan alamat minimum 10 karakter"); //[cite: 2]
+            JOptionPane.showMessageDialog(null, "Masukan alamat minimum 10 karakter");
             return;
         }
 
